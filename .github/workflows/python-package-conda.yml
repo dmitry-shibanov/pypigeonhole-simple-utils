@@ -27,7 +27,7 @@ jobs:
         $CONDA/bin/flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        conda list
+        conda info
         which conda
         which python
         # Though conda is ready, below python is pointing to somewhere else. Strange.
