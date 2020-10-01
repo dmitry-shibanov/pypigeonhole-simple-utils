@@ -14,4 +14,4 @@ dependencies:
     - pysocks==1.7.1 # optional, needed for ftp_client
     - pip:
           - pipdeptree # or conda install -c conda-forge pipdeptree
-          - coverage-badge  # coverage-badge -o coverage.svg here to generate coverage badge
+          - coverage-badge  # coverage-badge -o coverage.svg  run in here to generate coverage badge
