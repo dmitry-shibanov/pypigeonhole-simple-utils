@@ -28,4 +28,5 @@ jobs:
     - name: Test with pytest
       run: |
         cd src
+        echo $pwd
         python -m unittest discover -s ..\test
