@@ -26,7 +26,7 @@ class SimpleOsTest(unittest.TestCase):
         print('done: {}'.format(code))
         dur = time.time() - now
         print('duration: {} seconds'.format(dur))
-        self.assertTrue(dur < 2.1)
+        self.assertTrue(dur < 3)
         self.assertTrue(code != 0)  # is 1, not zero.
         print(result)  # empty
 

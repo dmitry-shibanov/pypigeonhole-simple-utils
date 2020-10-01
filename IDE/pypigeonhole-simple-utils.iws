@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/extra/simple_yaml.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/test_simple_yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/env_var_test.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/extrautils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/extrautils/ftp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/extra/ftp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/extrautils/http_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/extra/http_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/extrautils/simple_encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/extra/simple_encryption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/extrautils/ssh_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/extra/ssh_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/network_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/network_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/simple_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/simple_filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_filesystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/simple_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/simple_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_os.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/simple_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/pypigenhole/simpleutils/simple_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_timer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/extra/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils/test_ftp_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/test_ftp_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils/test_http_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/test_http_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils/test_simple_encryption.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/test_simple_encryption.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils/test_ssh_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/test_ssh_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_filesystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_os.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_str.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_str.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_timer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/unittest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/unittest.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_os.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +63,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17492712" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -218,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_pypigeonhole_utils" />
         <item itemvalue="Python tests.Unittests in test_simple_timer.py" />
         <item itemvalue="Python tests.Unittests in test_simple_str.py" />
         <item itemvalue="Python tests.Unittests in test_simple_os.py" />
         <item itemvalue="Python tests.Unittests in test_simple_log.py" />
+        <item itemvalue="Python tests.Unittests in test_pypigeonhole_utils" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +210,8 @@
       <workItem from="1601538472696" duration="60000" />
       <workItem from="1601538547405" duration="9305000" />
       <workItem from="1601577028675" duration="1068000" />
-      <workItem from="1601578113943" duration="2972000" />
+      <workItem from="1601578113943" duration="4357000" />
+      <workItem from="1601593174067" duration="210000" />
     </task>
     <servers />
   </component>
@@ -257,10 +229,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="190" key="#Project_Structure" timestamp="1601591749697">
+    <state x="384" y="190" key="#Project_Structure" timestamp="1601591978488">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="384" y="190" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601591749697" />
+    <state x="384" y="190" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601591978488" />
     <state x="2482" y="190" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601574524391" />
     <state x="634" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601514298173">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -278,25 +250,25 @@
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="2764" y="320" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601574033820" />
-    <state width="1689" height="163" key="GridCell.Tab.0.bottom" timestamp="1601578099661">
+    <state width="1689" height="163" key="GridCell.Tab.0.bottom" timestamp="1601593137060">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601578099661" />
+    <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
     <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829239" />
-    <state width="1689" height="163" key="GridCell.Tab.0.center" timestamp="1601578099661">
+    <state width="1689" height="163" key="GridCell.Tab.0.center" timestamp="1601593137060">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601578099661" />
+    <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
     <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829238" />
-    <state width="1689" height="163" key="GridCell.Tab.0.left" timestamp="1601578099661">
+    <state width="1689" height="163" key="GridCell.Tab.0.left" timestamp="1601593137060">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601578099661" />
+    <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
     <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829238" />
-    <state width="1689" height="163" key="GridCell.Tab.0.right" timestamp="1601578099661">
+    <state width="1689" height="163" key="GridCell.Tab.0.right" timestamp="1601593137060">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601578099661" />
+    <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
     <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829238" />
     <state width="1689" height="302" key="GridCell.Tab.1.bottom" timestamp="1601538251812">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -319,10 +291,10 @@
     </state>
     <state x="627" y="318" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601576865074" />
     <state x="2718" y="318" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601572084799" />
-    <state x="376" y="224" key="SettingsEditor" timestamp="1601591278390">
+    <state x="376" y="144" width="998" height="790" key="SettingsEditor" timestamp="1601593388572">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="376" y="224" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601591278390" />
+    <state x="376" y="144" width="998" height="790" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593388572" />
     <state x="2475" y="224" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538532870" />
     <state x="2367" y="176" key="new project wizard" timestamp="1601574061099">
       <screen x="2110" y="0" width="1986" height="1152" />

@@ -6,4 +6,7 @@ cd %BatchDir%..
 REM python -m coverage run -m unittest discover -s test
 coverage run -m unittest discover -s test
 coverage report
+
+del /s coverage.svg
+coverage-badge -o coverage.svg
 cd %WorkDir%

@@ -1,0 +1,6 @@
+server:
+    host: ${HOST}
+    path: ${HOST1:/tmp}/folder1
+    url: https://${HOST }/welcome
+    nested: ${HOST}/folder1/${HOST:my_default}/folder2 # 2 instances
+
