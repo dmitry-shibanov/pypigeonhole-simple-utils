@@ -28,8 +28,8 @@ jobs:
     - name: Test with pytest
       run: |
         conda list
-        where conda
-        where python
+        which conda
+        which python
         # Though conda is ready, below python is pointing to somewhere else. Strange.
         python -m unittest discover -s test
         # python -m coverage run -m unittest discover -s test
