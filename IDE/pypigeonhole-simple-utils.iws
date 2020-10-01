@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/unittest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/unittest.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601491602394</updated>
-      <workItem from="1601491603701" duration="27129000" />
+      <workItem from="1601491603701" duration="27515000" />
     </task>
     <servers />
   </component>
