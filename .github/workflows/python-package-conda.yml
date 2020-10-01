@@ -28,4 +28,5 @@ jobs:
     - name: Test with pytest
       run: |
         conda list
-        python -m coverage run -m unittest discover -s test
+        python -m unittest discover -s test
+        # python -m coverage run -m unittest discover -s test
