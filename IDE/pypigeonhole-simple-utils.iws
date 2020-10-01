@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.github/workflows/python-package-conda.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/python-package-conda.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/unittest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/unittest.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_email.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_os.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
       <recent name="D:\00dev\python\pypigeonhole-simple-utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_ftp_client.FtpClientTest">
+  <component name="RunManager" selected="Python tests.Unittests for test_simple_email.SimpleEmailTest.test_port_465">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -132,6 +135,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_simple_email.SimpleEmailTest.test_port_465" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pypigeonhole-simple-utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_simple_email.SimpleEmailTest.test_port_465&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_simple_encryption.IocInjectTest.test_enc" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pypigeonhole-simple-utils" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,43 +165,28 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_simple_str.StrUtilTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_pypigeonhole" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pypigeonhole-simple-utils" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_pypigeonhole" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_simple_str.StrUtilTest&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_simple_timer.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pypigeonhole-simple-utils" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_timer.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test/test_pypigeonhole&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_simple_email.SimpleEmailTest.test_port_465" />
+        <item itemvalue="Python tests.Unittests in test_pypigeonhole" />
         <item itemvalue="Python tests.Unittests for test_ftp_client.FtpClientTest" />
         <item itemvalue="Python.ftp_client" />
         <item itemvalue="Python tests.Unittests for test_simple_encryption.IocInjectTest.test_enc" />
-        <item itemvalue="Python tests.Unittests in test_simple_timer.py" />
-        <item itemvalue="Python tests.Unittests for test_simple_str.StrUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +198,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601491602394</updated>
-      <workItem from="1601491603701" duration="30212000" />
+      <workItem from="1601491603701" duration="31454000" />
     </task>
     <servers />
   </component>
@@ -229,22 +232,22 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="531" height="466" key="DebuggerActiveHint/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601518764881" />
-    <state width="1689" height="163" key="GridCell.Tab.0.bottom" timestamp="1601535545098">
+    <state width="1689" height="163" key="GridCell.Tab.0.bottom" timestamp="1601536552884">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
-    <state width="1689" height="163" key="GridCell.Tab.0.center" timestamp="1601535545098">
+    <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601536552884" />
+    <state width="1689" height="163" key="GridCell.Tab.0.center" timestamp="1601536552884">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
-    <state width="1689" height="163" key="GridCell.Tab.0.left" timestamp="1601535545098">
+    <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601536552884" />
+    <state width="1689" height="163" key="GridCell.Tab.0.left" timestamp="1601536552884">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
-    <state width="1689" height="163" key="GridCell.Tab.0.right" timestamp="1601535545098">
+    <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601536552884" />
+    <state width="1689" height="163" key="GridCell.Tab.0.right" timestamp="1601536552884">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
+    <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601536552884" />
     <state width="1689" height="302" key="GridCell.Tab.1.bottom" timestamp="1601518863388">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -278,28 +281,30 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_os_OsUtilsTest_test_timeout.coverage" NAME="Unittests for test_simple_os.OsUtilsTest.test_timeout Coverage Results" MODIFIED="1601520237233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1601521815838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/pypigenhole/extrautils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_email_SimpleEmailTest_test_port_465.coverage" NAME="Unittests for test_simple_email.SimpleEmailTest.test_port_465 Coverage Results" MODIFIED="1601536552876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_date_utils_DateUtilsTest_test_parser.coverage" NAME="Unittests for test_date_utils.DateUtilsTest.test_parser Coverage Results" MODIFIED="1601513490123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_os_OsUtilsTest_test_run_proc.coverage" NAME="Unittests for test_simple_os.OsUtilsTest.test_run_proc Coverage Results" MODIFIED="1601520228307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest.coverage" NAME="Unittests for test_simple_str.StrUtilTest Coverage Results" MODIFIED="1601520405039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_email_py.coverage" NAME="Unittests in test_simple_email.py Coverage Results" MODIFIED="1601518913164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_str_hash.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_str_hash Coverage Results" MODIFIED="1601520325227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_underscore.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_underscore Coverage Results" MODIFIED="1601520313642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_camel_snake.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_camel_snake Coverage Results" MODIFIED="1601520303234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_timer_py.coverage" NAME="Unittests in test_simple_timer.py Coverage Results" MODIFIED="1601520497625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_email_utils_test_EmailTest_test_email.coverage" NAME="Unittests for email_utils_test.EmailTest.test_email Coverage Results" MODIFIED="1601495279899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_filesystem_py.coverage" NAME="Unittests in test_simple_filesystem.py Coverage Results" MODIFIED="1601520120534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_encryption_IocInjectTest_test_enc.coverage" NAME="Unittests for test_simple_encryption.IocInjectTest.test_enc Coverage Results" MODIFIED="1601521235033" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_email_EmailTest_test_email.coverage" NAME="Unittests for test_simple_email.EmailTest.test_email Coverage Results" MODIFIED="1601517485059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_email_EmailTest_test_port_465.coverage" NAME="Unittests for test_simple_email.EmailTest.test_port_465 Coverage Results" MODIFIED="1601519883895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_str_py.coverage" NAME="Unittests in test_simple_str.py Coverage Results" MODIFIED="1601520294730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_unique_id.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_unique_id Coverage Results" MODIFIED="1601520355290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_chain_with.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_chain_with Coverage Results" MODIFIED="1601520307416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_os_OsUtilsTest_test_timeout.coverage" NAME="Unittests for test_simple_os.OsUtilsTest.test_timeout Coverage Results" MODIFIED="1601520237233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$ftp_client.coverage" NAME="ftp_client Coverage Results" MODIFIED="1601521815838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../src/pypigenhole/extrautils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_os_OsUtilsTest_test_run_proc.coverage" NAME="Unittests for test_simple_os.OsUtilsTest.test_run_proc Coverage Results" MODIFIED="1601520228307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_email_py.coverage" NAME="Unittests in test_simple_email.py Coverage Results" MODIFIED="1601518913164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_str_hash.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_str_hash Coverage Results" MODIFIED="1601520325227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_underscore.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_underscore Coverage Results" MODIFIED="1601520313642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_filesystem_py.coverage" NAME="Unittests in test_simple_filesystem.py Coverage Results" MODIFIED="1601520120534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_email_EmailTest_test_email.coverage" NAME="Unittests for test_simple_email.EmailTest.test_email Coverage Results" MODIFIED="1601517485059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_log_py.coverage" NAME="Unittests in test_simple_log.py Coverage Results" MODIFIED="1601520165247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_ftp_client_FtpClientTest.coverage" NAME="Unittests for test_ftp_client.FtpClientTest Coverage Results" MODIFIED="1601521846050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/extrautils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_date_utils_py.coverage" NAME="Unittests in test_date_utils.py Coverage Results" MODIFIED="1601513447371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_os_OsUtilsTest_test_run_cmd_to_string_output.coverage" NAME="Unittests for test_simple_os.OsUtilsTest.test_run_cmd_to_string_output Coverage Results" MODIFIED="1601520250432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_str_py.coverage" NAME="Unittests in test_simple_str.py Coverage Results" MODIFIED="1601520294730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_unique_id.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_unique_id Coverage Results" MODIFIED="1601520355290" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
-    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_simple_str_StrUtilTest_test_chain_with.coverage" NAME="Unittests for test_simple_str.StrUtilTest.test_chain_with Coverage Results" MODIFIED="1601520307416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_pypigeonhole.coverage" NAME="Unittests in test_pypigeonhole Coverage Results" MODIFIED="1601536457003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_for_test_date_utils_DateUtilsTest.coverage" NAME="Unittests for test_date_utils.DateUtilsTest Coverage Results" MODIFIED="1601512961638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils" />
   </component>
 </project>

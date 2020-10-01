@@ -6,6 +6,7 @@ import pypigenhole.simpleutils.simple_email as simple_email
 
 
 class SimpleEmailTest(unittest.TestCase):
+    # rewrite this: mock _smtp_sender
     @mock.patch.object(simple_email.EmailServer, 'send_text', return_value={})
     @mock.patch.object(simple_email.EmailServer, '__enter__')
     @mock.patch.object(simple_email.EmailServer, '__exit__')

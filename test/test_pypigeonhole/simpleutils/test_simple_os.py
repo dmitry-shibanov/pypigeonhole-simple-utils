@@ -33,7 +33,7 @@ class SimpleOsTest(unittest.TestCase):
     def test_run_proc(self):
         if platform.system() != 'Windows':
             return
-        
+
         code, res = simple_os.run_proc('java -version')
         self.assertTrue(code == 0)
         print(code)
