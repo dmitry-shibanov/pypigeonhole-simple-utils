@@ -1,8 +1,8 @@
 import unittest
 import unittest.mock as mock
 
-import pypigenhole.simpleutils.network_utils as net_utils
-import pypigenhole.simpleutils.simple_email as simple_email
+import pypigeonhole_utils.simple.network_utils as net_utils
+import pypigeonhole_utils.simple.simple_email as simple_email
 
 
 class SimpleEmailTest(unittest.TestCase):

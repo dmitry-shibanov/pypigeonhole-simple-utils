@@ -12,4 +12,16 @@ setup(name='pypigeonhole-simple-utils',
       packages=find_packages("src", exclude=["test"]),
 
       python_requires='>=3',
+
+      install_requires=[],
+
+      tests_require=[
+            'pycryptodome==3.9.8',
+            'requests==2.24.0',
+            'pyyaml==5.3.1'
+            'paramiko==2.7.2',
+            'pysocks==1.7.1'
+      ],
+
+      extras_require={},
       )

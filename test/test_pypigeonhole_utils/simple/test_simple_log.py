@@ -3,7 +3,7 @@ import logging
 import os
 import shutil
 
-import pypigenhole.simpleutils.simple_log as simple_log
+import pypigeonhole_utils.simple.simple_log as simple_log
 
 
 # Need to set up the log in the main() method, then in each module/file, import

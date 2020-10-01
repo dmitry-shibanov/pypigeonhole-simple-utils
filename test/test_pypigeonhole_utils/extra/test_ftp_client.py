@@ -1,8 +1,8 @@
 import unittest
 from unittest import mock
 
-import pypigenhole.simpleutils.network_utils as net_utils
-import pypigenhole.extrautils.ftp_client as ftp_client
+import pypigeonhole_utils.simple.network_utils as net_utils
+import pypigeonhole_utils.extra.ftp_client as ftp_client
 
 
 # another way to test is to use a stub server: https://github.com/rspivak/sftpserver

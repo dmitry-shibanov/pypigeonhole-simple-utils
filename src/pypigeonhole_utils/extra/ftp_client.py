@@ -3,8 +3,8 @@ import socket
 import socks
 import paramiko
 
-from pypigenhole.simpleutils.network_utils import RemoteServer, ProxyType, ProxyServer, Credential
-import pypigenhole.simpleutils.simple_log as dss_log
+from pypigeonhole_utils.simple.network_utils import RemoteServer, ProxyType, ProxyServer, Credential
+import pypigeonhole_utils.simple.simple_log as dss_log
 
 logger = dss_log.get_logger('__name__')
 

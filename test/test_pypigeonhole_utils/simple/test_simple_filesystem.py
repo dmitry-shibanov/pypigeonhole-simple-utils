@@ -2,7 +2,7 @@ import unittest
 import os
 import shutil
 
-import pypigenhole.simpleutils.simple_filesystem as simple_filesystem
+import pypigeonhole_utils.simple.simple_filesystem as simple_filesystem
 
 
 class SimpleFilesystemTest(unittest.TestCase):

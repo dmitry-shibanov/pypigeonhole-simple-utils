@@ -1,8 +1,8 @@
 import unittest
 import os
 
-import pypigenhole.simpleutils.simple_timer as simple_timer
-import pypigenhole.simpleutils.simple_log as simple_log
+import pypigeonhole_utils.simple.simple_timer as simple_timer
+import pypigeonhole_utils.simple.simple_log as simple_log
 
 
 class SimpleTimerTest(unittest.TestCase):

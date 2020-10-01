@@ -2,7 +2,7 @@ from dataclasses import dataclass
 import smtplib
 from email.message import Message, EmailMessage
 
-import pypigenhole.simpleutils.network_utils as network_utils
+import pypigeonhole_utils.simple.network_utils as network_utils
 
 
 # Abstract these fields to a class to avoid long method parameters in send()

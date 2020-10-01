@@ -1,6 +1,6 @@
 import unittest
 
-import pypigenhole.simpleutils.simple_str as simple_str
+import pypigeonhole_utils.simple.simple_str as simple_str
 
 
 class SimpleStrTest(unittest.TestCase):

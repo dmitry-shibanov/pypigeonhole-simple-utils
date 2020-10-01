@@ -1,5 +1,5 @@
 __pycache__
-/src/pypigeonhole_simple_utils.egg-info
+.coverage
+/src/*.egg-info
 /build
 /dist
-.coverage

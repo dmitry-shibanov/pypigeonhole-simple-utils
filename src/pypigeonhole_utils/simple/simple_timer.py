@@ -28,9 +28,6 @@ class PerfBenchmark:
     def curr_step(self):
         return time.time() - self.last_step
 
-    def total(self):
-        return time.time() - self.start
-
     def __exit__(self, exc_type, exc_val, exc_tb):
         self.dur = time.time() - self.start
         self.log_print(f"{self.name} takes: {self.dur:.3f} seconds")

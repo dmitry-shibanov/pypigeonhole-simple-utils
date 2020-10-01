@@ -8,7 +8,14 @@
       <excludeFolder url="file://$MODULE_DIR$" />
       <excludeFolder url="file://$MODULE_DIR$/../build" />
       <excludeFolder url="file://$MODULE_DIR$/../dist" />
+      <excludeFolder url="file://$MODULE_DIR$/../src/pypigenhole/__pycache__" />
       <excludeFolder url="file://$MODULE_DIR$/../src/pypigeonhole_simple_utils.egg-info" />
+      <excludeFolder url="file://$MODULE_DIR$/../src/pypigeonhole_utils/extra/__pycache__" />
+      <excludeFolder url="file://$MODULE_DIR$/../src/pypigeonhole_utils/simple/__pycache__" />
+      <excludeFolder url="file://$MODULE_DIR$/../test/test_pypigeonhole/__pycache__" />
+      <excludeFolder url="file://$MODULE_DIR$/../test/test_pypigeonhole_utils/__pycache__" />
+      <excludeFolder url="file://$MODULE_DIR$/../test/test_pypigeonhole_utils/extra/__pycache__" />
+      <excludeFolder url="file://$MODULE_DIR$/../test/test_pypigeonhole_utils/simple/__pycache__" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

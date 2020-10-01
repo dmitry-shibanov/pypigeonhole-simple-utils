@@ -1,6 +1,6 @@
 import unittest
 
-import pypigenhole.extrautils.simple_encryption as enc
+import pypigeonhole_utils.extra.simple_encryption as enc
 
 
 class IocInjectTest(unittest.TestCase):

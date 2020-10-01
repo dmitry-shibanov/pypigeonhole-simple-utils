@@ -2,7 +2,7 @@ import unittest
 import time
 import platform
 
-import pypigenhole.simpleutils.simple_os as simple_os
+import pypigeonhole_utils.simple.simple_os as simple_os
 
 
 class SimpleOsTest(unittest.TestCase):
