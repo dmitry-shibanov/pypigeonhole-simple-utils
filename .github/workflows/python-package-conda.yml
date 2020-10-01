@@ -29,4 +29,4 @@ jobs:
       run: |
         cd src
         echo $pwd
-        python -m unittest discover -s ..\test
+        python -m unittest discover
