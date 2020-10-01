@@ -1,5 +1,5 @@
 # After this file is created, we can conda env create
-name: py385_su
+name: py385_psu  # Pypigeonhole Simple Utils - PSU
 
 channels:
     - defaults
@@ -11,5 +11,6 @@ dependencies:
     - pycryptodome=3.9.8 # optional, needed in encryption_utils
     - paramiko==2.7.2 # optional, needed for ftp_client and ssh_client
     - pysocks==1.7.1 # optional, needed for ftp_client
+    - coverage==5.3
     - pip:
           - pipdeptree # or conda install -c conda-forge pipdeptree
