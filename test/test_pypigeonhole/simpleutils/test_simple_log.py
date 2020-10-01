@@ -3,15 +3,17 @@ import logging
 import os
 import shutil
 
-import pypigenhole.simpleutils.simple_log as dss_log
+import pypigenhole.simpleutils.simple_log as simple_log
 
 
+# Need to set up the log in the main() method, then in each module/file, import
+# simple_log and call logger = simple_log.get_logger(__name__).
 class SimpleLogTest(unittest.TestCase):
     def test_level(self):
-        dss_log.set_log_level(logging.WARN)
-        dss_log.log_to_console()
+        simple_log.set_log_level(logging.WARN)
+        simple_log.log_to_console()
 
-        logger = dss_log.get_logger(__name__)
+        logger = simple_log.get_logger(__name__)
         logger.info('This is info - invisible')
         logger.error('This is error - visible')
         self.assertTrue(logger.parent.level == logging.WARN)
@@ -21,10 +23,10 @@ class SimpleLogTest(unittest.TestCase):
         if os.path.exists(log_dir):
             shutil.rmtree(log_dir)  # clean up this.
 
-        dss_log.set_log_level(logging.WARN)
-        file_handler = dss_log.log_to_file('test', log_dir)  # if log_dir not exist, it will be created.
+        simple_log.set_log_level(logging.WARN)
+        file_handler = simple_log.log_to_file('test', log_dir)  # if log_dir not exist, it will be created.
 
-        logger = dss_log.get_logger(__name__)
+        logger = simple_log.get_logger(__name__)
         logger.info('This is info - invisible')
         logger.error('This is error - visible')
         self.assertTrue(logger.parent.level == logging.WARN)

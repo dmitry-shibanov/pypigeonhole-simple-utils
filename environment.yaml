@@ -11,6 +11,5 @@ dependencies:
     - pycryptodome=3.9.8 # optional, needed in encryption_utils
     - paramiko==2.7.2 # optional, needed for ftp_client and ssh_client
     - pysocks==1.7.1 # optional, needed for ftp_client
-
     - pip:
           - pipdeptree # or conda install -c conda-forge pipdeptree

@@ -4,6 +4,7 @@ import time
 import threading
 
 
+# One of the main OS feature is to run commands.
 # timeout is None: no timeout
 def run_exe(exe: str, timeout=None, check_timeout_interval=1):
     try:

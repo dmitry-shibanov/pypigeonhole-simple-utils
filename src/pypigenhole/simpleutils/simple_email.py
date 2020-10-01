@@ -5,6 +5,8 @@ from email.message import Message, EmailMessage
 import pypigenhole.simpleutils.network_utils as network_utils
 
 
+# Abstract these fields to a class to avoid long method parameters in send()
+# Headers are listed here: https://en.wikipedia.org/wiki/MIME#MIME_header_fields
 @dataclass
 class Envelop:  # = namedtuple('Envelop', ['subject', 'from_addr', 'to_addr', 'headers'])
     subject: str
@@ -13,6 +15,12 @@ class Envelop:  # = namedtuple('Envelop', ['subject', 'from_addr', 'to_addr', 'h
     headers: dict = None
 
 
+# This is a context to handle connection close. It has 2 convenient methods to
+# send text and html(check content type header). For other types, create a
+# proper Message and use the generic send(). So this class handles the send()
+# logic and leave the message construction outside the scope, because there
+# are so many possibilities to construct different messages. We help with only
+# the commonly used Message types, text and html.
 class EmailServer:
     def __init__(self, email_server: network_utils.RemoteServer, credential: network_utils.Credential = None):
         self._email_server = email_server

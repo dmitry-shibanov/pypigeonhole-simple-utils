@@ -3,6 +3,8 @@ import contextlib
 import sys
 
 
+# simple timers to provide intermediate during prints.
+# This is context
 class PerfBenchmark:
     def __init__(self, name, log_print=print):
         self.name = name
@@ -35,6 +37,7 @@ class PerfBenchmark:
         return False  # This will let exception pass through this class to callers
 
 
+# This is another way to avoid class and you don't care the total time in return.
 @contextlib.contextmanager
 def perf_bm(name, log_print=print):
     pbm = PerfBenchmark(name, log_print=log_print)
