@@ -1,11 +1,15 @@
 import unittest
 import time
+import platform
 
 import pypigenhole.simpleutils.simple_os as simple_os
 
 
 class SimpleOsTest(unittest.TestCase):
     def test_run_cmd_to_string_output(self):
+        if platform.system() != 'Windows':
+            return
+
         code, result = simple_os.run_exe('cmd /c dir')
         self.assertTrue(code == 0)
         print('result: ' + result)
@@ -27,6 +31,9 @@ class SimpleOsTest(unittest.TestCase):
         print(result)  # empty
 
     def test_run_proc(self):
+        if platform.system() != 'Windows':
+            return
+        
         code, res = simple_os.run_proc('java -version')
         self.assertTrue(code == 0)
         print(code)

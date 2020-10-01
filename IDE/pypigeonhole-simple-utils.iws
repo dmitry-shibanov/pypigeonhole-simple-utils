@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="" />
+    <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole/simpleutils/test_simple_os.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -192,12 +195,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601491602394</updated>
-      <workItem from="1601491603701" duration="27515000" />
+      <workItem from="1601491603701" duration="30212000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="384" y="190" key="#Project_Structure" timestamp="1601522510655">
@@ -216,22 +229,22 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="531" height="466" key="DebuggerActiveHint/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601518764881" />
-    <state width="1689" height="254" key="GridCell.Tab.0.bottom" timestamp="1601521846059">
+    <state width="1689" height="163" key="GridCell.Tab.0.bottom" timestamp="1601535545098">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="254" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601521846059" />
-    <state width="1689" height="254" key="GridCell.Tab.0.center" timestamp="1601521846059">
+    <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
+    <state width="1689" height="163" key="GridCell.Tab.0.center" timestamp="1601535545098">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="254" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601521846059" />
-    <state width="1689" height="254" key="GridCell.Tab.0.left" timestamp="1601521846058">
+    <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
+    <state width="1689" height="163" key="GridCell.Tab.0.left" timestamp="1601535545098">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="254" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601521846058" />
-    <state width="1689" height="254" key="GridCell.Tab.0.right" timestamp="1601521846059">
+    <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
+    <state width="1689" height="163" key="GridCell.Tab.0.right" timestamp="1601535545098">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="254" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601521846059" />
+    <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601535545098" />
     <state width="1689" height="302" key="GridCell.Tab.1.bottom" timestamp="1601518863388">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -248,6 +261,10 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1689" height="302" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601518863388" />
+    <state x="627" y="318" key="RollbackChangesDialog" timestamp="1601531745162">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state x="627" y="318" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601531745162" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
