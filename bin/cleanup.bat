@@ -1,10 +1,10 @@
-SET BatchDir="%~dp0"
-SET ProjDir= %BatchDir%..
+SET BatchDir=%~dp0
+SET ProjDir=%BatchDir%..
 
 echo Project Folder: %ProjDir%
 
-RMDIR /Q /S %ProjDir%build
+RMDIR /Q /S %ProjDir%\build
 
-RMDIR /Q /S %ProjDir%dist
+RMDIR /Q /S %ProjDir%\dist
 
-RMDIR /Q /S %ProjDir%src\pypigeonhole-simple-utils.egg-info
+FOR /d %%G IN ("%ProjDir%\*.egg-info") DO RMDIR /Q /S "%%~G"

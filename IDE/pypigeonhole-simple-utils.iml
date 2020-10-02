@@ -8,6 +8,7 @@
       <excludeFolder url="file://$MODULE_DIR$" />
       <excludeFolder url="file://$MODULE_DIR$/../build" />
       <excludeFolder url="file://$MODULE_DIR$/../dist" />
+      <excludeFolder url="file://$MODULE_DIR$/../pypigeonhole_simple_utils.egg-info" />
       <excludeFolder url="file://$MODULE_DIR$/../src/pypigenhole/__pycache__" />
       <excludeFolder url="file://$MODULE_DIR$/../src/pypigeonhole_simple_utils.egg-info" />
       <excludeFolder url="file://$MODULE_DIR$/../src/pypigeonhole_utils/__pycache__" />

@@ -6,7 +6,6 @@ channels:
 
 dependencies:
     - python==3.8.5 # The first line should always be python version
-    - pip # to ensure pip is up to date
     - coverage==5.3 # for test coverage
     - requests==2.24.0 # optional, needed for http_client
     - pycryptodome==3.9.8 # optional, needed in encryption_utils

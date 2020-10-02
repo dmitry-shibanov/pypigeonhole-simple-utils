@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/extra/env_var_test.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/unittest.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/unittest.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../coverage.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../coverage.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_os.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_os.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/build.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/cleanup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/cleanup.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,6 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -64,6 +64,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17492712" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -212,6 +213,11 @@
       <workItem from="1601577028675" duration="1068000" />
       <workItem from="1601578113943" duration="4357000" />
       <workItem from="1601593174067" duration="210000" />
+      <workItem from="1601593408066" duration="636000" />
+      <workItem from="1601595399779" duration="205000" />
+      <workItem from="1601595616810" duration="328000" />
+      <workItem from="1601595957254" duration="161000" />
+      <workItem from="1601596397990" duration="5096000" />
     </task>
     <servers />
   </component>
@@ -229,10 +235,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="384" y="190" key="#Project_Structure" timestamp="1601591978488">
+    <state x="765" y="192" key="#Project_Structure" timestamp="1601600643849">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="384" y="190" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601591978488" />
+    <state x="765" y="192" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601600643849" />
     <state x="2482" y="190" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601574524391" />
     <state x="634" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601514298173">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -286,15 +292,19 @@
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state width="1689" height="302" key="GridCell.Tab.1.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601538251812" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1601596409660">
+      <screen x="0" y="0" width="2048" height="1152" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601596409660" />
     <state x="627" y="318" key="RollbackChangesDialog" timestamp="1601576865074">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
     <state x="627" y="318" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601576865074" />
     <state x="2718" y="318" key="RollbackChangesDialog/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601572084799" />
-    <state x="376" y="144" width="998" height="790" key="SettingsEditor" timestamp="1601593388572">
+    <state x="376" y="144" width="998" height="790" key="SettingsEditor" timestamp="1601596576287">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="376" y="144" width="998" height="790" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593388572" />
+    <state x="376" y="144" width="998" height="790" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601596576287" />
     <state x="2475" y="224" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538532870" />
     <state x="2367" y="176" key="new project wizard" timestamp="1601574061099">
       <screen x="2110" y="0" width="1986" height="1152" />
