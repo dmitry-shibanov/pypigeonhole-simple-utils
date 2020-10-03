@@ -4,7 +4,7 @@ import os
 import datetime
 
 _logger = logging.getLogger('')
-_logger.setLevel(logging.INFO)
+_logger.setLevel(logging.INFO)  # or use logging.basicConfig( level=logging.DEBUG )
 
 _default_formatter = logging.Formatter('%(asctime)-6s: %(levelname)-8s [%(name)s:%(lineno)d] - %(message)s')
 

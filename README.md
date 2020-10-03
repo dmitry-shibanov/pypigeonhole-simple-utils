@@ -21,3 +21,30 @@ ___
 - http_client needs requests
 
 If we don't use these modules, then don't need to install the dependencies.
+
+
+#### Project Setup
+Here is the new approach for project setup. Currently, setup.py is for project 
+build, not for project setup. We use environment.txt or environment.yaml for
+project setup. However, there are duplicated information between the setup.py 
+and environment files. Maven is a very matured Java tool to manage Java 
+projects. When we compare setup.py and Maven, we find that we miss the scope
+information. 
+
+So the dep_setup.py is added for developers to add dependencies with scope
+information. The dep_setup.utils.py will generate install_required and
+test_required for the setup.py, and generates the environment.yaml as well.
+
+So the project setup is to run the following to generate the environment.yaml.
+
+```python dep_setup.py```
+
+Then set up Python environment with:
+
+```conda env create -file environment.yaml ```
+
+When development is done, run the build
+
+```python setup.py```
+
+In the future, we may extract dep_setup_utils.py to somewhere else.

@@ -1,6 +1,7 @@
 import unittest
 import os
 import shutil
+import datetime
 
 import pypigeonhole_utils.simple.simple_filesystem as simple_filesystem
 
@@ -46,6 +47,21 @@ class SimpleFilesystemTest(unittest.TestCase):
         latest = simple_filesystem.latest_folder_in('/tmp', pattern='*/')  # this / means folder
         print(latest)
         self.assertTrue(latest.replace('\\', '/')[:-1] == test_folder)  # remove last /
+
+    def test_time(self):
+        f = simple_filesystem.find_latest_file(os.getcwd(), '*.py')
+        print(f)
+
+        yesterday = datetime.datetime.now() - datetime.timedelta(1)
+        f = simple_filesystem.find_latest_file(os.getcwd(), '*.py', yesterday)
+        print(f)
+
+        f = simple_filesystem.find_earliest_file(os.getcwd(), '*.py')
+        print(f)
+
+        yesterday = datetime.datetime.now() - datetime.timedelta(1)
+        f = simple_filesystem.find_earliest_file(os.getcwd(), '*.py', yesterday)
+        print(f)
 
 
 def del_file(file: str):

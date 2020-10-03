@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c21d567d-dde2-4fee-a3b8-b6fddb74391b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dep_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dep_setup_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" beforeDir="false" afterPath="$PROJECT_DIR$/pypigeonhole-simple-utils.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../bin/build.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/build.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../bin/cleanup.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../bin/cleanup.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../environment.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../environment1.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/../setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/../src/pypigeonhole_utils/simple/simple_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple/test_simple_filesystem.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +53,7 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -80,7 +84,7 @@
       <recent name="D:\00dev\python\pypigeonhole-simple-utils\bin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_pypigeonhole_utils">
+  <component name="RunManager" selected="Python.dep_setup">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -104,6 +108,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dep_setup" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pypigeonhole-simple-utils" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../dep_setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -112,21 +138,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="Unittests in test_pypigeonhole_utils" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pypigeonhole-simple-utils" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../test/test_pypigeonhole_utils" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/../test/test_pypigeonhole_utils&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
     </configuration>
     <configuration name="Unittests in test_simple_log.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pypigeonhole-simple-utils" />
@@ -190,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dep_setup" />
         <item itemvalue="Python tests.Unittests in test_simple_timer.py" />
         <item itemvalue="Python tests.Unittests in test_simple_str.py" />
         <item itemvalue="Python tests.Unittests in test_simple_os.py" />
         <item itemvalue="Python tests.Unittests in test_simple_log.py" />
-        <item itemvalue="Python tests.Unittests in test_pypigeonhole_utils" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +228,7 @@
       <workItem from="1601595399779" duration="205000" />
       <workItem from="1601595616810" duration="328000" />
       <workItem from="1601595957254" duration="161000" />
-      <workItem from="1601596397990" duration="5096000" />
+      <workItem from="1601596397990" duration="19172000" />
     </task>
     <servers />
   </component>
@@ -240,10 +251,10 @@
     </state>
     <state x="765" y="192" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601600643849" />
     <state x="2482" y="190" key="#Project_Structure/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601574524391" />
-    <state x="634" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601514298173">
+    <state x="634" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601765068732">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state x="634" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601514298173" />
+    <state x="634" y="363" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601765068732" />
     <state x="659" y="319" key="#xdebugger.evaluate" timestamp="1601518736273">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
@@ -256,25 +267,25 @@
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="2764" y="320" key="FileChooserDialogImpl/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601574033820" />
-    <state width="1689" height="163" key="GridCell.Tab.0.bottom" timestamp="1601593137060">
+    <state width="1689" height="252" key="GridCell.Tab.0.bottom" timestamp="1601765048191">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
+    <state width="1689" height="252" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601765048191" />
     <state width="1689" height="163" key="GridCell.Tab.0.bottom/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829239" />
-    <state width="1689" height="163" key="GridCell.Tab.0.center" timestamp="1601593137060">
+    <state width="1689" height="252" key="GridCell.Tab.0.center" timestamp="1601765048191">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
+    <state width="1689" height="252" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601765048191" />
     <state width="1689" height="163" key="GridCell.Tab.0.center/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829238" />
-    <state width="1689" height="163" key="GridCell.Tab.0.left" timestamp="1601593137060">
+    <state width="1689" height="252" key="GridCell.Tab.0.left" timestamp="1601765048191">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
+    <state width="1689" height="252" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601765048191" />
     <state width="1689" height="163" key="GridCell.Tab.0.left/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829238" />
-    <state width="1689" height="163" key="GridCell.Tab.0.right" timestamp="1601593137060">
+    <state width="1689" height="252" key="GridCell.Tab.0.right" timestamp="1601765048191">
       <screen x="0" y="0" width="2048" height="1152" />
     </state>
-    <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601593137060" />
+    <state width="1689" height="252" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601765048191" />
     <state width="1689" height="163" key="GridCell.Tab.0.right/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538829238" />
     <state width="1689" height="302" key="GridCell.Tab.1.bottom" timestamp="1601538251812">
       <screen x="0" y="0" width="2048" height="1152" />
@@ -306,12 +317,17 @@
     </state>
     <state x="376" y="144" width="998" height="790" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601596576287" />
     <state x="2475" y="224" key="SettingsEditor/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601538532870" />
+    <state x="2157" y="63" width="1277" height="951" key="dock-window-1" timestamp="1601760454633">
+      <screen x="2110" y="0" width="1986" height="1152" />
+    </state>
+    <state x="2157" y="63" width="1277" height="951" key="dock-window-1/0.0.2048.1152/2110.0.1986.1152@0.0.2048.1152" timestamp="1601760454633" />
     <state x="2367" y="176" key="new project wizard" timestamp="1601574061099">
       <screen x="2110" y="0" width="1986" height="1152" />
     </state>
     <state x="2367" y="176" key="new project wizard/0.0.2048.1152/2110.0.1986.1152@2110.0.1986.1152" timestamp="1601574061099" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$dep_setup.coverage" NAME="dep_setup Coverage Results" MODIFIED="1601760940671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_filesystem_py.coverage" NAME="Unittests in test_simple_filesystem.py Coverage Results" MODIFIED="1601577594847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_log_py.coverage" NAME="Unittests in test_simple_log.py Coverage Results" MODIFIED="1601577599906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple" />
     <SUITE FILE_PATH="coverage/pypigeonhole_simple_utils$Unittests_in_test_simple_email_py.coverage" NAME="Unittests in test_simple_email.py Coverage Results" MODIFIED="1601577588572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../test/test_pypigeonhole_utils/simple" />
