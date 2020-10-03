@@ -28,6 +28,7 @@ jobs:
     - name: Unit Tests
       run: |
         conda info
+        conda list
         which conda
         which python
         # Though conda is ready, below python is pointing to somewhere else. Strange.
