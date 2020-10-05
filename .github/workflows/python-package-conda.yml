@@ -35,7 +35,7 @@ jobs:
         which conda
         which python
         ls
-        python -m unittest discover test -t $(pwd)
+        python3 -m unittest discover test -t $(pwd)
         # Though conda is ready, below python is pointing to somewhere else. Strange.
         # python3 -m unittest discover test -t src/pypigeonhole_utils
         # python3 -m unittest discover -s test
