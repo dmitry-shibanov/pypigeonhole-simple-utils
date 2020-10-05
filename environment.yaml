@@ -1,0 +1,16 @@
+name: py385_psu
+
+channels:
+    - defaults
+
+dependencies:
+    - python==3.8.5
+    - coverage==5.3
+    - requests==2.24.0
+    - pycryptodome==3.9.8
+    - paramiko==2.7.2
+    - pysocks==1.7.1
+    - pyyaml==5.3.1
+    - pip:
+        - pipdeptree
+        - coverage-badge
