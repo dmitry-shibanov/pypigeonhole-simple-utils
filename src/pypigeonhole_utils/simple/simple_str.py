@@ -33,6 +33,8 @@ def hash_str(a_str):
     return hash_obj.hexdigest()
 
 
+# explained in here:
+# https://blog.miguelgrinberg.com/post/the-new-way-to-generate-secure-tokens-in-python
 def unique_id(size=4):
     return secrets.token_hex(size)
 

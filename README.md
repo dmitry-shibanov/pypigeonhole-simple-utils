@@ -31,6 +31,10 @@ and environment files. Maven is a very matured Java tool to manage Java
 projects. When we compare setup.py and Maven, we find that we miss the scope
 information. 
 
+There are only 2 scopes, install or test(we rename it to dev). Install scope
+means that this project needs this lib in order to run. Dev scope means that
+the lib is optional for some features, or needed only for testing.
+
 So the dep_setup.py is added for developers to add dependencies with scope
 information. The dep_setup.utils.py will generate install_required and
 test_required for the setup.py, and generates the environment.yaml as well.
@@ -48,3 +52,9 @@ When development is done, run the build
 ```python setup.py```
 
 In the future, we may extract dep_setup_utils.py to somewhere else.
+
+A side note about git+https, here is the way to define the dependency:
+
+```Dependency(name='https://github.com/psilons/pypigeonhole-simple-utils/archive/master.zip')```
+
+This http link is from Code | Download ZIP menu in GitHub.

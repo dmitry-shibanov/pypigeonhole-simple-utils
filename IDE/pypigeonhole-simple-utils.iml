@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/../src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$" />
+      <excludeFolder url="file://$MODULE_DIR$/../__pycache__" />
       <excludeFolder url="file://$MODULE_DIR$/../build" />
       <excludeFolder url="file://$MODULE_DIR$/../dist" />
       <excludeFolder url="file://$MODULE_DIR$/../pypigeonhole_simple_utils.egg-info" />

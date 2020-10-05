@@ -27,7 +27,7 @@ setup(name='pypigeonhole-simple-utils',
       #       'paramiko==2.7.2',
       #       'pysocks==1.7.1'
       # ],
-      install_requires=dep_setup. install_required,
+      install_requires=dep_setup.install_required,
 
       tests_require=dep_setup.test_required,
 

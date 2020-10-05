@@ -3,11 +3,12 @@ import unittest.mock as mock
 
 import pypigeonhole_utils.simple.network_utils as net_utils
 import pypigeonhole_utils.simple.simple_email as simple_email
+import smtplib
 
 
 class SimpleEmailTest(unittest.TestCase):
     # rewrite this: mock _smtp_sender
-    @mock.patch.object(simple_email.EmailServer, 'send_text', return_value={})
+    @mock.patch.object(smtplib.SMTP_SSL, 'send_message', return_value={})
     @mock.patch.object(simple_email.EmailServer, '__enter__')
     @mock.patch.object(simple_email.EmailServer, '__exit__')
     def test_port_465(self, mock1, mock2, mock3):
@@ -20,6 +21,7 @@ class SimpleEmailTest(unittest.TestCase):
         )
         with email_server:
             envelop = simple_email.Envelop(subject, 'sender@some.com', 'receiver@another.com')
+            email_server._smtp_sender = mock1
             res = email_server.send_text(text, envelop)
-            print(res)
+            print(f'result: {res}')
             self.assertTrue(len(res) == 0)  # no error

@@ -20,6 +20,7 @@ DEV = 'dev'
 class Dependency:
     name: str
     version: str = ''
+    url: str = None
     scope: str = DEV
     installer: Installer = PIP
     desc: str = None
@@ -46,24 +47,28 @@ def gen_conda_yaml(libs):  # output all libs, install or dev.
         f.write('    - pip:\n')
         for lib in libs:
             if lib.installer == PIP:
-                f.write(f'        - {lib.name}{lib.version}\n')
+                if lib.url:
+                    f.write(f'        - {lib.url}')
+                else:
+                    f.write(f'        - {lib.name}{lib.version}\n')
 
 
 def get_install_required(libs):
-    ret = []
-    for lib in libs:
-        if lib.scope == INSTALL:
-            ret.append(f'{lib.name}{lib.version}')
-
-    print(f'install_required={ret}')
-    return ret
+    return _find_dep_for_scope(libs, INSTALL)
 
 
 def get_test_required(libs):
+    return _find_dep_for_scope(libs, DEV)
+
+
+def _find_dep_for_scope(libs, scope):
     ret = []
     for lib in libs:
-        if lib.scope == DEV:
-            ret.append(f'{lib.name}{lib.version}')
-
+        if lib.scope == scope:
+            # https://stackoverflow.com/a/54794506/7898913
+            if lib.url:
+                ret.append(f'{lib.name} @ {lib.url}')
+            else:
+                ret.append(f'{lib.name}{lib.version}')
     print(f'test_required={ret}')
     return ret

@@ -11,7 +11,9 @@ import pypigeonhole_utils.simple.network_utils as network_utils
 class Envelop:  # = namedtuple('Envelop', ['subject', 'from_addr', 'to_addr', 'headers'])
     subject: str
     from_addr: str
-    to_addr: str
+    to_addr: str  # comma separated emails
+    cc_addr: str = None  # comma separated emails
+    bcc_addr: str = None  # comma separated emails
     headers: dict = None
 
 
@@ -66,6 +68,11 @@ class EmailServer:
         message['From'] = envelop.from_addr
         message['To'] = envelop.to_addr
 
+        if envelop.cc_addr:
+            message['Cc'] = envelop.cc_addr
+        if envelop.bcc_addr:
+            message['Bcc'] = envelop.bcc_addr
+
         if envelop.headers:
             for k, v in envelop.headers.items():
                 if k in message:
@@ -73,4 +80,10 @@ class EmailServer:
                 else:
                     message.add_header(k, v)
 
+        # https://pybit.es/python-MIME-bcc.html
         return self._smtp_sender.send_message(message)
+
+
+# email.mime has a few submodules to deal with text, multipart for text,
+# attachments, etc. Here we only make simple things. For other combinations,
+# such as text + attachment, html + attachments, we leave it out.
